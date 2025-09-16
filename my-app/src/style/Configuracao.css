@@ -10,9 +10,7 @@
 }
 
 .configuracao:hover{
-    filter: drop-shadow(0 0 2em #ecaf06aa);
     animation: rotate 1s;  
-    
 }
 
 @keyframes rotate {
