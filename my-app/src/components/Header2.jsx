@@ -8,7 +8,10 @@ import tomaImg from '../assets/toma.png';
 function Header() {
     return (
         <>
-        <button className='option2'>login motorista</button>
+        <button className='option2'
+        style={{marginTop:'15px'}}>
+            login motorista
+        </button>
 
         <button className='configuracao'>
         <img src={tomaImg} alt ="toma" width="65" height="65"/>
@@ -18,11 +21,17 @@ function Header() {
 
         <div className="header">
 
-        <button className="option">HOME</button>
+        <button
+        style={{marginRight: '65px'}}
+        className="option">HOME</button>
 
-        <button className="option">HORÁRIOS</button>
+        <button 
+        style={{marginRight: '65px'}}
+        className="option">HORÁRIOS</button>
 
-        <button className="option">CONTATO</button>
+        <button 
+        style={{marginRight: '65px'}}
+        className="option">CONTATO</button>
         
         </div>
         </>
