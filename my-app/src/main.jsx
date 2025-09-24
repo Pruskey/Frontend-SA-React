@@ -3,10 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './style/index.css'
 import Header from './components/Header2'
 import Login from './components/Login'
+import Horarios from './components/Horarios'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <Login />
+    <Horarios />
   </StrictMode>,
 )
