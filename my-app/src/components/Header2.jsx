@@ -4,6 +4,7 @@ import '../style/Logo.css';
 import '../style/Configuracao.css'
 import '../style/MenuOption2.css'
 import tomaImg from '../assets/toma.png';
+import logo from '../assets/logo.png';
 
 function Header() {
     return (
@@ -17,7 +18,7 @@ function Header() {
         <img src={tomaImg} alt ="toma" width="65" height="65"/>
         </button>
 
-        <div className="logo">logo</div>
+        <div className="logo"><img src={logo} width="100" height="75"></img></div>
 
         <div className="header">
 
