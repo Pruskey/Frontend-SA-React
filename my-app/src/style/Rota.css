@@ -4,12 +4,11 @@
     border-radius: 2px;
     align-items: center;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     width: 135px;
     height: 45px;
     color: orange;
-    float: right;   
+    float: right;
 }
 
 .rota .img{
@@ -19,10 +18,12 @@
 
 .rota:hover{
     background-color: rgb(236, 236, 236);
+    border-color: orange;
 }
 
 .rota:hover .img{
-    opacity: 0.8;
+    transition-duration: 0.4s;
+    opacity: 0.75;
 }
 
 

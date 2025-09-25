@@ -11,6 +11,7 @@ import TomaImage from '../assets/toma.png';
 function Horarios() {
     return (
         <>
+        <div style={{overflowY: 'scroll', height: '200px', width: '800px', float: 'left'}}>
         <RotaOnibus
         nome="Rota Biguaçu" 
         local="Halloween SESI SENAI" 
@@ -29,12 +30,7 @@ function Horarios() {
         destino="toma"
         horario="12:00"
         />
-        <RotaOnibus
-        nome="Rota Professor"
-        local="toma"
-        destino="toma"
-        horario="12:00"
-        />
+        </div>
         </>
     );
 }

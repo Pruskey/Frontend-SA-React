@@ -10,15 +10,15 @@ import onibusreceba from '../assets/onibusreceba.png';
 function RotaOnibus(props) {
     return (
         <>
-        <div style={{}}>
+        <div style={{justifyContent: 'center', alignItems: 'center', display: 'flex', marginRight: '175px'}}>
             <button className='rota' style={{width: '500px', height:'150px', marginRight: '20px', marginBottom: '20px'}}>
                 <ol>
                 <b>{props.nome}</b> 
-                <p>Partida: {props.local}
+                <p>Partida: {props.local}</p>
                 <p>Destino: {props.destino}</p>
-                Horário: <i>{props.horario}</i>
-                </p></ol>
-                <img class="img" src={onibusreceba} style={{width: '120px', height: '120px'}} className='img'></img>
+                <p>Horário: <i>{props.horario}</i></p>
+                </ol>
+                <img src={onibusreceba} style={{width: '120px', height: '120px'}} className='img'></img>
             </button>
         </div>
         </>

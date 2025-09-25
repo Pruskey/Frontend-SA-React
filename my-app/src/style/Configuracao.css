@@ -11,7 +11,8 @@
 }
 
 .configuracao:hover{
-    animation: rotate 1s;  
+    animation: rotate 1s;
+    border-color: transparent;  
 }
 
 @keyframes rotate {

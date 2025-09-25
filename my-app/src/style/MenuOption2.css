@@ -16,4 +16,5 @@
 .option2:hover {
     background-color: rgb(233, 152, 2);
     box-shadow: 0px 4px 0px 0px rgb(201, 131, 1);
+    border-color: orange;
 }
