@@ -18,7 +18,7 @@ function Header() {
         <img src={tomaImg} alt ="toma" width="65" height="65"/>
         </button>
 
-        <div className="logo"><img src={logo} width="100" height="75"></img></div>
+        <div className="logo"><img src={logo} width="135" height="125"></img></div>
 
         <div className="header">
 

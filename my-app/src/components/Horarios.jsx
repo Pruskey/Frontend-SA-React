@@ -6,8 +6,10 @@ import '../style/MenuOption2.css'
 import '../style/Form.css'
 import '../style/Rota.css'
 import RotaOnibus from './RotaOnibus.jsx'
-import TomaImage from '../assets/toma.png';
 import { useState } from 'react';
+import tempo from '../assets/tempo.png'
+import caneta from '../assets/caneta.png'
+import ponto from '../assets/ponto.png'
 import '../style/rotainfo.css';
 
 function Horarios() {
@@ -39,22 +41,41 @@ function Horarios() {
         </div>
         <h3>Detalhes da Rota</h3>
         <div className='rotainfo'style={{float: 'left'}}>
-            
+        {selectedRota ? (
+            <p><strong>Rota: </strong>{selectedRota.nome}</p>
+        ) : (
+            <p style={{color: 'gray'}}>Nome da rota...</p>
+        )}
+        <img src={caneta} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
         </div>
 
-        <div style={{float: 'right'}}>
+        <div className='rotainfo'style={{float: 'left'}}>
         {selectedRota ? (
-                    <>
-                        <h3>Detalhes da Rota</h3>
-                        <p><strong>Rota:</strong> {selectedRota.nome}</p>
-                        <p><strong>Partida:</strong> {selectedRota.local}</p>
-                        <p><strong>Destino:</strong> {selectedRota.destino}</p>
-                        <p><strong>Horário:</strong> <i>{selectedRota.horario}</i></p>
-                    </>
-                ) : (
-                    <p></p>
-                )}
+            <p><strong>Partida: </strong>{selectedRota.local}</p>
+        ) : (
+            <p style={{color: 'gray'}}>Local de partida...</p>
+        )}
+        <img src={ponto} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
         </div>
+
+        <div className='rotainfo'style={{float: 'left'}}>
+        {selectedRota ? (
+            <p><strong>Destino: </strong>{selectedRota.destino}</p>
+        ) : (
+            <p style={{color: 'gray'}}>Destino da rota...</p>
+        )}
+        <img src={ponto} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        </div>
+        
+        <div className='rotainfo'style={{float: 'left'}}>
+        {selectedRota ? (
+            <p><strong>Horário: </strong>{selectedRota.horario}</p>
+        ) : (
+            <p style={{color: 'gray'}}>Horário de partida...</p>
+        )}
+        <img src={tempo} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        </div>
+        
         </>
     );
 }
