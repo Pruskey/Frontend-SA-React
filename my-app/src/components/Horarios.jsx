@@ -16,12 +16,14 @@ function Horarios() {
     const [selectedRota, setSelectedRota] = useState(null);
     return (
         <>
-        <div style={{overflowY: 'scroll', height: '250px', width: '800px', float: 'left'}}>
+        <div style={{overflowY: 'scroll', height: '400px', width: '800px', float: 'left'}}>
         <RotaOnibus
         nome="Rota Biguaçu" 
         local="Halloween SESI SENAI" 
         destino="Terminal Biguaçu" 
         horario="12:55"
+        passageiros_min="6"
+        passageiros_max="9"
         onSelect={setSelectedRota}
         />
         <RotaOnibus
@@ -29,6 +31,8 @@ function Horarios() {
         local="toma"
         destino="toma"
         horario="12:00"
+        passageiros_min="9"
+        passageiros_max="12"
         onSelect={setSelectedRota}
         />
         <RotaOnibus
@@ -36,6 +40,8 @@ function Horarios() {
         local="toma"
         destino="toma"
         horario="12:00"
+        passageiros_min="9"
+        passageiros_max="12"
         onSelect={setSelectedRota}
         />
         </div>
@@ -74,6 +80,15 @@ function Horarios() {
             <p style={{color: 'gray'}}>Horário de partida...</p>
         )}
         <img src={tempo} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        </div>
+
+        <div className='rotainfo'style={{float:'left'}}>
+        {selectedRota  ? (
+            <p><strong>Passageiros: </strong>{selectedRota.passageiros_min}<strong> à </strong>{selectedRota.passageiros_max}</p>
+        ) : (
+            <p style={{color: 'gray'}}>Estimativa de passageiros...</p>
+        )}
+
         </div>
         
         </>
