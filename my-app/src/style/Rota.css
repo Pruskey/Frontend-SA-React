@@ -26,4 +26,9 @@
     opacity: 0.75;
 }
 
+.rota:focus{
+    outline: 4px auto -webkit-focus-ring-color;
+    outline-color: orange;
+}
+
 

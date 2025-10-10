@@ -8,6 +8,9 @@ import tomaImg from '../assets/toma.png';
 function Noticias() {
     return (
         <>
+        <div>
+            
+        </div>
         </>
     );
 }
