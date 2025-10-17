@@ -6,7 +6,7 @@
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     margin-top: 20px;
     margin-bottom: 25px;
 }
@@ -18,9 +18,9 @@
 }
 
 .form-div2{
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     border-radius: 5px;
-    border: 2px solid rgb(201, 131, 1);
+    border: 2px solid rgb(207, 94, 1);
     justify-content: center;
     margin-left: 450px;
     height: 325px;

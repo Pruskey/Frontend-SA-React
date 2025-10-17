@@ -10,15 +10,15 @@ function Header() {
     return (
         <>
         <button className='option2'
-        style={{marginTop:'15px'}}>
+        style={{marginTop:'15px', marginRight: '150px'}}>
             login motorista
         </button>
 
         <button className='configuracao'>
-        <img src={tomaImg} alt ="toma" width="65" height="65"/>
+        <img src={tomaImg} alt ="toma" width="100" height="100"/>
         </button>
 
-        <div className="logo"><img src={logo} width="135" height="125"></img></div>
+        <div className="logo"><img src={logo} width="105" height="105"></img></div>
 
         <div className="header">
 

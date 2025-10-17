@@ -10,6 +10,7 @@ import { useState } from 'react';
 import tempo from '../assets/tempo.png'
 import caneta from '../assets/caneta.png'
 import ponto from '../assets/ponto.png'
+import pessoa from '../assets/pessoa.png'
 import '../style/rotainfo.css';
 
 function Horarios() {
@@ -52,7 +53,7 @@ function Horarios() {
         ) : (
             <p style={{color: 'gray'}}>Nome da rota...</p>
         )}
-        <img src={caneta} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        <img src={caneta} style={{height: '65px', width: '65px', marginLeft: 'auto'}}></img>
         </div>
 
         <div className='rotainfo'style={{float: 'left'}}>
@@ -61,7 +62,7 @@ function Horarios() {
         ) : (
             <p style={{color: 'gray'}}>Local de partida...</p>
         )}
-        <img src={ponto} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        <img src={ponto} style={{height: '65px', width: '65px', marginLeft: 'auto'}}></img>
         </div>
 
         <div className='rotainfo'style={{float: 'left'}}>
@@ -70,7 +71,7 @@ function Horarios() {
         ) : (
             <p style={{color: 'gray'}}>Destino da rota...</p>
         )}
-        <img src={ponto} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        <img src={ponto} style={{height: '65px', width: '65px', marginLeft: 'auto'}}></img>
         </div>
         
         <div className='rotainfo'style={{float: 'left'}}>
@@ -79,7 +80,7 @@ function Horarios() {
         ) : (
             <p style={{color: 'gray'}}>Horário de partida...</p>
         )}
-        <img src={tempo} style={{height: '100px', width: '100px', marginLeft: 'auto'}}></img>
+        <img src={tempo} style={{height: '65px', width: '65px', marginLeft: 'auto'}}></img>
         </div>
 
         <div className='rotainfo'style={{float:'left'}}>
@@ -88,9 +89,8 @@ function Horarios() {
         ) : (
             <p style={{color: 'gray'}}>Estimativa de passageiros...</p>
         )}
-
+        <img src={pessoa} style={{height: '65px', width: '65px', marginLeft: 'auto'}}></img>
         </div>
-        
         </>
     );
 }
