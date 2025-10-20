@@ -3,20 +3,21 @@ import '../style/MenuOption.css';
 import '../style/Logo.css';
 import '../style/Configuracao.css'
 import '../style/MenuOption2.css'
-import '../style/Quadrado.css'
+import '../style/ConfigOption.css'
 import tomaImg from '../assets/toma.png';
+import logo from '../assets/logo.png';
 
-function Noticias() {
+function Header() {
     return (
         <>
         <div>
-        <h1 style={{float: 'right', marginRight: '450px', marginBottom: '20px'}}>noticia</h1>
-        <div className='quadrado'>
-        <h1>imagem</h1>
-        </div>
+        <button
+        style={{marginRight: '65px'}}
+        className="configOption">CONTATO</button>
+        
         </div>
         </>
     );
 }
 
-export default Noticias;
+export default Header;
