@@ -41,7 +41,7 @@ function Horarios() {
     }, []);
     return (
         <>
-        <div style={{overflowY: 'scroll', width: '100vw', float: 'left'}}>
+        <div style={{overflowY: 'scroll', width: '98vw', float: 'left', marginBottom: '50vh'}}>
         {loading && (<p style={{color: 'gray'}}>Carregando rotas...</p>)}
         {error && (<p style={{color: 'red'}}>{error}</p>)}
         {!loading && !error && rotas.map((rota) => (
@@ -54,7 +54,7 @@ function Horarios() {
                 onSelect={setSelectedRota}
             />
         ))}
-        
+
         {(!loading && !error && rotas.length === 0) && (
             <p style={{color: 'gray'}}>Nenhuma rota encontrada.</p>
         )}

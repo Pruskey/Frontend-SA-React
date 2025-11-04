@@ -1,22 +1,20 @@
 import '../style/Header.css';
 import '../style/MenuOption.css';
 import '../style/Logo.css';
-import '../style/Configuracao.css'
-import '../style/MenuOption2.css'
-import '../style/Quadrado.css'
-import tomaImg from '../assets/toma.png';
+import '../style/Configuracao.css';
+import '../style/MenuOption2.css';
+import '../style/Quadrado.css';
+import '../style/Case.css';
+import '../style/CaseText.css'
 
-function Noticias() {
+function Contato() {
     return (
         <>
-        <div>
-        <h1 style={{float: 'right', marginRight: '45vw', marginBottom: '5vh'}}>noticia</h1>
-        <div className='quadrado'>
-        <h1>imagem</h1>
-        </div>
+        <div className='case'>
+            <h2 className='caseText'>abfadsfsda</h2>
         </div>
         </>
     );
 }
 
-export default Noticias;
+export default Contato;

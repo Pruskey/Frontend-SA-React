@@ -10,9 +10,8 @@ function Noticias() {
     return (
         <>
         <div>
-        <h1 style={{float: 'right', marginRight: '450px', marginBottom: '20px'}}>noticia</h1>
-        <div className='quadrado'>
-        <h1>imagem</h1>
+        <h2 style={{float: 'right', marginRight: '10vh', marginBottom: '20vh'}}>acidente</h2>
+        <div className='quadrado' style={{marginBottom: '10vh'}}>
         </div> </div>
         </>
     );
