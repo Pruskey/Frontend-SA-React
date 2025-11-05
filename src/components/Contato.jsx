@@ -11,7 +11,10 @@ function Contato() {
     return (
         <>
         <div className='case'>
-            <h2 className='caseText'>abfadsfsda</h2>
+            <h2 className='caseText'>E-Mail</h2>
+        </div>
+        <div className='case' style={{backgroundColor: 'rgb(247, 247, 247)', borderRadius: '0px', boxShadow: '0px 4px 0px rgb(190, 190, 190)'}}>
+            <h3 className='caseText'>o@gmail.com</h3>
         </div>
         </>
     );

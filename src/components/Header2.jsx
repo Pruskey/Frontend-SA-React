@@ -10,6 +10,7 @@ import logo from '../assets/logo.png';
 function Header() {
   return (
     <>
+    <div style={{backgroundColor: 'rgb(255, 115, 0)'}}>
       <Link to="/configuracao" className="configuracao">
         <img src={tomaImg} alt="toma" width="85vw" height="85vh" />
       </Link>
@@ -17,11 +18,13 @@ function Header() {
       <div className="logo">
         <img src={logo} width="105" height="105" alt="logo" />
       </div>
+      
 
       <div className="header">
-        <Link to="/" style={{ marginRight: '10vw' }} className="option">HOME</Link>
-        <Link to="/horarios" style={{ marginRight: '10vw' }} className="option">HORÁRIOS</Link>
-        <Link to="/contato" style={{ marginRight: '0vw' }} className="option">CONTATO</Link>
+        <Link to="/" style={{ marginRight: '14vw', borderRadius: '10px' }} className="option">HOME</Link>
+        <Link to="/horarios" style={{ marginRight: '14vw', borderRadius: '10px' }} className="option">HORÁRIOS</Link>
+        <Link to="/contato" style={{ marginRight: '0vw', borderRadius: '10px' }} className="option">CONTATO</Link>
+      </div>
       </div>
     </>
   );

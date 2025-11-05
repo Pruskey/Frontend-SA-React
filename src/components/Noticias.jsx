@@ -4,6 +4,7 @@ import '../style/Logo.css';
 import '../style/Configuracao.css'
 import '../style/MenuOption2.css'
 import '../style/Quadrado.css'
+import '../style/Quadrado2.css'
 import tomaImg from '../assets/toma.png';
 
 function Noticias() {

@@ -3,7 +3,8 @@
     width: 0px;
     border-radius: 0px;
     margin-left: 5vw;
-    margin-top: 15vh;
+    margin-top: 9vh;
+    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
