@@ -16,7 +16,7 @@ function Header() {
       </Link>
 
       <div className="logo">
-        <img src={logo} width="105" height="105" alt="logo" />
+        <img src={logo} width="110vw" height="100vh" alt="logo" />
       </div>
       
 
