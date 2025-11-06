@@ -5,15 +5,19 @@ import '../style/Configuracao.css'
 import '../style/MenuOption2.css'
 import '../style/Quadrado.css'
 import '../style/Quadrado2.css'
+import '../style/NoticiaTitle.css'
+import '../style/NoticiaText.css'
 import tomaImg from '../assets/toma.png';
 
 function Noticias() {
     return (
         <>
-        <div>
-        <h2 style={{float: 'right', marginRight: '10vh', marginBottom: '20vh'}}>acidente</h2>
-        <div className='quadrado' style={{marginBottom: '10vh'}}>
-        </div> </div>
+        <div style={{float: 'right', marginTop: '31vh', marginLeft: '2vw'}}>
+        <h2 className='NoticiaTitle'>acidente</h2>
+        <h3 className='NoticiaText'>acidente2</h3>
+        </div>
+        <div className='quadrado' style={{marginTop: '35vh'}}>
+        </div>
         </>
     );
 }

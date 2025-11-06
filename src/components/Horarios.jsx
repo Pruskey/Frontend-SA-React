@@ -41,7 +41,7 @@ function Horarios() {
     }, []);
     return (
         <>
-        <div style={{overflowY: 'scroll', width: '98vw', float: 'left', marginBottom: '50vh'}}>
+        <div style={{overflowY: 'scroll', width: '98vw', float: 'left', marginBottom: '10vh'}}>
         {loading && (<p style={{color: 'gray'}}>Carregando rotas...</p>)}
         {error && (<p style={{color: 'red'}}>{error}</p>)}
         {!loading && !error && rotas.map((rota) => (

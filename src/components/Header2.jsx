@@ -10,7 +10,7 @@ import logo from '../assets/logo.png';
 function Header() {
   return (
     <>
-    <div style={{backgroundColor: 'rgb(255, 115, 0)'}}>
+    <div style={{backgroundColor: 'rgb(255, 115, 0)', position: 'fixed', top: '0vh', width: '100vw'}}>
       <Link to="/configuracao" className="configuracao">
         <img src={tomaImg} alt="toma" width="85vw" height="85vh" />
       </Link>
