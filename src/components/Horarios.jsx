@@ -11,7 +11,7 @@ import tempo from '../assets/tempo.png'
 import caneta from '../assets/caneta.png'
 import ponto from '../assets/ponto.png'
 import pessoa from '../assets/pessoa.png'
-import '../style/rotainfo.css';
+import '../style/rotainfo.css'; 
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000';
 

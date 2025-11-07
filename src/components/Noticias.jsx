@@ -7,8 +7,7 @@ import '../style/Quadrado.css'
 import '../style/Quadrado2.css'
 import '../style/NoticiaTitle.css'
 import '../style/NoticiaText.css'
-import tomaImg from '../assets/toma.png';
-import onibus from '../assets/onibusreceba.png'
+import acidente from '../assets/onibus-1.webp'
 
 function Noticias() {
     return (
@@ -18,7 +17,7 @@ function Noticias() {
         <h3 className='NoticiaText'>Onibus explodiu na BR-101 às 3 da meia tarde 15 morto slk</h3>
         </div>
         <div className='quadrado' style={{marginTop: '35vh'}}>
-            <img src={onibus} alt="toma" width="85vw" height="85vh" />
+            <img src={acidente} alt="toma" style={{width: "43vw", height: "53vh", borderRadius: "20px", marginTop: "1vh", marginLeft: "1vw"}} />
         </div>
         </>
     );
