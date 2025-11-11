@@ -22,8 +22,8 @@ function RotaOnibus(props) {
     
     return (
         <>
-        <div style={{ justifyContent: 'center', alignItems: 'center', display: 'flex', marginRight: '175px' }}>
-            <button className='rota' style={{ width: '525px', height: '135px', marginRight: '20px', marginBottom: '20px' }}
+        <div style={{marginTop: '15vh'}}>
+            <button className='rota' style={{ width: '525px', height: '135px', marginRight: '20px'}}
                 onClick={handleClick}>
                 <ol>
                     <b>{props.nome}</b>
