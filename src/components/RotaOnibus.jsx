@@ -23,7 +23,7 @@ function RotaOnibus(props) {
     return (
         <>
         <div style={{marginTop: '15vh'}}>
-            <button className='rota' style={{ width: '525px', height: '135px', marginRight: '20px'}}
+            <button className='rota' style={{ width: '525px', height: '135px', marginRight: '7vw'}}
                 onClick={handleClick}>
                 <ol>
                     <b>{props.nome}</b>
